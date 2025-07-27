@@ -1,0 +1,30 @@
+# Build directories
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+vcpkg/
+vcpkg_installed/
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Library files
+*.a
+*.so
+*.dylib
+*.dll
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.log
+*.tmp
+
+# IDE settings
+.vscode/
+.idea/
