@@ -1,6 +1,7 @@
 # Ollama C++
 
-> [!NOTE] > **Ollama** is an AI tool that allows the running of LLM locally on the machine. The interaction can be either via CLI or programmatically via API calls. Ollama adheres to [OpenAI API architecture](https://platform.openai.com/docs/overview).
+> [!NOTE]
+> **Ollama** is an AI tool that allows the running of LLM locally on the machine. The interaction can be either via CLI or programmatically via API calls. Ollama adheres to [OpenAI API architecture](https://platform.openai.com/docs/overview).
 
 ### LESSON LEARNT FROM OLLAMA C++
 
