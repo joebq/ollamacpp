@@ -1,17 +1,14 @@
 # Ollama C++
 
-> [!NOTE]
-> **Ollama** is an AI tool that allows the running of LLM locally on the machine. The interaction can be either via CLI or programmatically via API calls. Ollama adheres to [OpenAI API architecture](https://platform.openai.com/docs/overview).
+> [!NOTE] > **Ollama** is an AI tool that allows the running of LLM locally on the machine. The interaction can be either via CLI or programmatically via API calls. Ollama adheres to [OpenAI API architecture](https://platform.openai.com/docs/overview).
 
 ### LESSON LEARNT FROM OLLAMA C++
 
-> **Ollama** has an unofficial OpenAI API libraries written in C++ that is located @ https://github.com/D7EAD/liboai The library has dependencies on `nlohmann-json` and `crul` libraries for it to run.
-
+> [!NOTE] > **Ollama** has an unofficial OpenAI API libraries written in C++ that is located @ https://github.com/D7EAD/liboai The library has dependencies on `nlohmann-json` and `crul` libraries for it to run.
 > `liboai` can be installed using `cmake FetchContent` command.
-
 > `Curl` library can be installed locally on the machine using the operating system package manager.
 
-> `nlohmann-json` can be installed using `vcpkg` package manager and added to the project before running adding the `liboai` library.
+> [!IMPORTANT] > `nlohmann-json` can be installed using `vcpkg` package manager and added to the project before running adding the `liboai` library.
 
 ### SAMPLE CODE OF CMAKELISTS.TXT FILE
 
@@ -56,6 +53,7 @@ CURL::libcurl
 
 ### LOCAL OLLAMA
 
+> [!NOTE]
 > OpenAI API for **ollama** does not directly support `liboai` call for local ollama model, this can though be achieved by another library @ https://github.com/jmont-dev/ollama-hpp. In such manner, the program can switch dynamically between OpenAI with API Keys or connected locally.
 
 ```cpp
